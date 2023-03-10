@@ -1,0 +1,7 @@
+Accesso come amministratore e creatore dell'associazione Napoli Cuore:
+- Email: amministratore@ilovepizza.it
+- Password: amministratore
+
+Accesso come utente generico:
+- Email: luigibianchi@example.com
+- Password: password

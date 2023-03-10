@@ -1,0 +1,165 @@
+body {
+  overflow-x: hidden;
+}
+
+#text {
+  position: absolute;
+  color: #000000;
+  margin-left: 30%;
+}
+
+#pizzaContainer {
+  margin-top: 10%;
+  margin-left: 15%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#pizzasData {
+  float: left;
+  width: 40%;
+  height: 350px;
+  border: solid;
+  border-color: #000000;
+  border-top: #107503 solid;
+  border-right: #107503 solid;
+  border-radius: 0px 15px 15px 0px;
+  background-color: #fffeb3;
+  border-left: 0px;
+  padding-left: 2%;
+}
+
+#coverpic {
+  width: 40%;
+  height: 350px;
+  float: left;
+  border-color: #000000;
+  border: solid;
+  border-right: none;
+  border-top: #107503 solid;
+  border-radius: 15px 0px 0px 15px;
+}
+
+
+
+#pizzaCarousel {
+  position: relative;
+}
+
+
+main#carousel {
+  position: relative;
+  padding-top: 5%;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  transform-style: preserve-3d;
+  perspective: 600px;
+  pointer-events: none;
+  /* Per rendere cliccabili i pallini del carousel */
+}
+
+div.item {
+  position: absolute;
+  width: 300px;
+  height: 400px;
+  background-color: #ffffff;
+  background-size: 100% 90%;
+  border: solid;
+  border-color: #107503da;
+  border-bottom: #000000 solid;
+  border-left: #000000 solid;
+  border-radius: 3%;
+  --r: calc(var(--position) - var(--offset));
+  --abs: max(calc(var(--r) * -1), var(--r));
+  transition: all 0.25s linear;
+  transform: rotateY(calc(-10deg * var(--r))) translateX(calc(-300px * var(--r)));
+  z-index: calc((var(--position) - var(--abs)));
+  pointer-events: auto;
+  /* Per rendere cliccabili le immagini del carousel */
+}
+
+
+
+
+
+.container {
+  z-index: -3;
+  position: absolute;
+  top: 80%;
+  width: 100%;
+  background-color: #ffffff;
+  height: 19%;
+  border-radius: 0 0 5px 5px;
+  border-top: #000000 solid;
+}
+
+h4 {
+  position: absolute;
+  padding-left: 35%;
+  margin-top: 3%;
+}
+
+p {
+  margin-top: 10%;
+  margin-left: 2%;
+}
+
+#back {
+  position: absolute;
+  right: 95%;
+  top: 55%;
+  z-index: 1000;
+  color: transparent;
+  /* Perché all'inizio il back button non deve apparire */
+  background-color: transparent;
+  border-color: transparent;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+#forward {
+  position: absolute;
+  left: 95%;
+  top: 55%;
+  color: black;
+  background-color: white;
+  border-color: black;
+  border-radius: 15px;
+  cursor: pointer;
+  z-index: 1000;
+  border-color: #08c001;
+}
+
+#recipes {
+  width: fit-content;
+  height: 10%;
+  text-align: center;
+  color: #000000;
+  font-size: 15px;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 3%;
+  /*border-radius: 5px;*/
+  background-color: #f8f8ed;
+  border-radius: 15px;
+  border-color: #107503da;
+}
+
+#recipes:hover {
+  outline-width: 3px;
+  outline-style: solid;
+  outline-color: #cbd811;
+  background-color: #ffffff;
+  box-shadow: 0 0 .5rem #ffffff00;
+  cursor: pointer;
+}
+
+#recipes:focus {
+  outline: none;
+  background-color: #cbd811;
+  box-shadow: 0 0 .5rem #ffffff;
+}

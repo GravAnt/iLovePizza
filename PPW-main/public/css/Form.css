@@ -1,0 +1,304 @@
+div.Form {
+    margin: auto;
+    width: 400px;
+    height: fit-content;
+    border: 2px solid #107503;
+    border-bottom: #000000 solid;
+    border-left: #000000 solid;
+    padding: 1%;
+    margin-top: 10%;
+    background-image: url("/img/loginBackground.jpg");
+    background-size: cover;
+    border-radius: 5%;
+    text-align: center;
+}
+
+div.errorForm {
+    margin: auto;
+    width: 400px;
+    height: fit-content;
+    border: 2px solid #107503;
+    border-bottom: #000000 solid;
+    border-left: #000000 solid;
+    padding: 1%;
+    margin-top: 6%;
+    background-image: url("/img/loginBackground.jpg");
+    background-size: cover;
+    border-radius: 5%;
+    text-align: center;
+}
+
+.errorpage body {
+    background-color: rgb(255, 253, 239);
+}
+
+.errorpage div.Form {
+    margin: auto;
+    width: 400px;
+    height: fit-content;
+    border: 2px solid #107503;
+    border-bottom: #000000 solid;
+    border-left: #000000 solid;
+    padding: 1%;
+    margin-top: 8%;
+    background-image: url("/img/loginBackground.jpg");
+    background-size: cover;
+    border-radius: 5%;
+    text-align: center;
+}
+
+.confirmationpage body {
+    background-color: rgb(255, 253, 239);
+}
+
+.confirmationpage div.Form {
+    margin: auto;
+    width: 400px;
+    height: fit-content;
+    border: 2px solid #107503;
+    border-bottom: #000000 solid;
+    border-left: #000000 solid;
+    padding: 1%;
+    margin-top: 8%;
+    background-image: url("/img/loginBackground.jpg");
+    background-size: cover;
+    border-radius: 5%;
+    text-align: center;
+}
+
+#reset {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #ff0000;
+    border-radius: 5px;
+    border-color: #000000;
+    margin-left: 7.5%;
+    padding: 1%;
+    margin-top: 1.8%;
+    width: 25%;
+    height: 30px;
+    text-align: center;
+    font-size: 15px;
+}
+
+#reset:hover {
+    outline-width: 3px;
+    outline-style: solid;
+    outline-color: #ff0000;
+    background-color: #ffffff;
+    box-shadow: 0 0 .5rem #ffffff00;
+    cursor: pointer;
+}
+
+#formTitle {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: black;
+}
+
+#formName {
+    width: 50%;
+    height: 30px;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 2%;
+}
+
+#formType {
+    width: 50%;
+    height: 30px;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 2%;
+}
+
+#formIngredients {
+    width: 70%;
+    height: 30px;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 2%;
+}
+
+#formDescription {
+    border: solid;
+    border-color: #107503;
+    border-bottom: #000000 solid;
+    border-left: #000000 solid;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 15px;
+}
+
+#uploadImage {
+    width: auto;
+    height: 30px;
+    text-align: center;
+    color: #000000;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 3%;
+    border-radius: 5px;
+    background-color: rgb(248, 248, 237);
+}
+
+#uploadImage:hover {
+    outline-width: 3px;
+    outline-style: solid;
+    outline-color: #cbd811;
+    background-color: #ffffff;
+    box-shadow: 0 0 .5rem #ffffff00;
+    cursor: pointer;
+}
+
+#associationName {
+    width: 50%;
+    height: 30px;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 2%;
+}
+
+#number {
+    width: 50%;
+    height: 30px;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 2%;
+}
+
+#pizzaType {
+    width: 50%;
+    height: 30px;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 2%;
+}
+
+#name {
+    margin-top: -10px;
+    width: 50%;
+    height: 30px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#email {
+    width: 50%;
+    height: 30px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#password {
+    width: 50%;
+    height: 30px;
+    text-align: center;
+    margin-top: 3%;
+    border-radius: 5px;
+}
+
+#password_confirmation {
+    width: 50%;
+    height: 30px;
+    text-align: center;
+    margin-top: 3%;
+    border-radius: 5px;
+}
+
+
+
+#status_photo {
+    border-radius: 15%;
+    border: solid;
+    border-color: #107503;
+    border-top: #000000 solid;
+    border-right: #000000 solid;
+}
+
+#backHome {
+    width: fit-content;
+    height: 30px;
+    text-align: center;
+    color: #000000;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 3%;
+    border-radius: 5px;
+    background-color: rgb(248, 248, 237);
+}
+
+#confirm {
+    width: auto;
+    height: 30px;
+    text-align: center;
+    color: #000000;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 3%;
+    border-radius: 5px;
+    background-color: rgb(248, 248, 237);
+}
+
+
+#backHome:hover {
+    outline-width: 3px;
+    outline-style: solid;
+    outline-color: #cbd811;
+    background-color: #ffffff;
+    box-shadow: 0 0 .5rem #ffffff00;
+    cursor: pointer;
+}
+
+#forgotPassword {
+    width: 45%;
+    height: 30px;
+    text-align: center;
+    color: #000000;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 3%;
+    border-radius: 5px;
+    background-color: rgb(248, 248, 237);
+}
+
+#confirm:hover {
+    outline-width: 3px;
+    outline-style: solid;
+    outline-color: #cbd811;
+    background-color: #ffffff;
+    box-shadow: 0 0 .5rem #ffffff00;
+    cursor: pointer;
+}
+
+#confirm:focus {
+    outline: none;
+    background-color: #cbd811;
+    box-shadow: 0 0 .5rem #ffffff;
+}
+
+
+#forgotPassword:hover {
+    outline-width: 3px;
+    outline-style: solid;
+    outline-color: #cbd811;
+    background-color: #ffffff;
+    box-shadow: 0 0 .5rem #ffffff00;
+    cursor: pointer;
+}
+
+#forgotPassword:focus {
+    outline: none;
+    background-color: #cbd811;
+    box-shadow: 0 0 .5rem #ffffff;
+}
+
+h2 {
+    background-color: #ffffff;
+    border: solid;
+    border-color: #107503;
+}
